@@ -1,18 +1,22 @@
 #include <iostream>
 
 int main(){
+    std::string isyoupass;
 
-    // end of day 1 //
-    std::string name;
-    int age;
+    std::cout << "What The PassWord: ";
+    std::cin >> isyoupass;
 
-    std::cout << "What Your Name: ";
-    std::getline(std::cin, name);
+    if(isyoupass == "mimo"){
+        std::cout << "Hi Pass!!";
+    }
 
-    std::cout << "What Your Age: ";
-    std::cin >> age;
+    else if(isyoupass == "zaza"){
+        std::cout << "i would let you pass but pass said mimo was the password";
+    }
 
-    std::cout << name << '\n'; 
-    std::cout << age << '\n';
+    else{
+        std::cout << "GET OU";
+    }
+
     return 0;
 } 
