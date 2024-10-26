@@ -1,22 +1,47 @@
 #include <iostream>
 
 int main(){
-    std::string isyoupass;
+    
+    char op;
+    double num1;
+    double num2;
+    double result;
 
-    std::cout << "What The PassWord: ";
-    std::cin >> isyoupass;
+    std::cout << "Enter Either (+ - * /): ";
+    std::cin >> op;
 
-    if(isyoupass == "mimo"){
-        std::cout << "Hi Pass!!";
+    std::cout << "Enter First Number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter Second Number: ";
+    std::cin >> num2;
+
+    switch(op){
+        case '+':
+            result = num1 + num2;
+            std::cout << "result: " << result << '\n';
+            break;
+
+        case '-':
+            result = num1 - num2;
+            std::cout << "result: " << result << '\n';
+            break;
+
+        case '*':
+            result = num1 * num2;
+            std::cout << "result: " << result << '\n';
+            break;
+
+        case '/':
+            result = num1 / num2;
+            std::cout << "result: " << result << '\n';
+            break;
+
+        default:
+            std::cout << "invalid respond";
     }
-
-    else if(isyoupass == "zaza"){
-        std::cout << "i would let you pass but pass said mimo was the password";
-    }
-
-    else{
-        std::cout << "GET OU";
-    }
-
+    
+    std::cin.ignore();
+    std::cin.get();
     return 0;
 } 
