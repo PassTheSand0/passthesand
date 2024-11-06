@@ -89,7 +89,4 @@ D = Button(frame, text="D", font="Sans",width=3, command=window_move_right).pack
 launch_button = Button(window, text="Create a New Window", font="Sans", command=launched)
 launch_button.pack()
 
-checkbutton = Checkbutton(window, text="Move all Window", font="Sans")
-checkbutton.pack()
-
 window.mainloop()
