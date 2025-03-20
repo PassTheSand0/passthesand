@@ -2,8 +2,8 @@
 
 // window.alert("Boo jumpscare")
 
-let pass = "Pass";
-let jason = "Jason";
+let pass = "JAVA";
+let jason = "SCRIPT";
 
 document.getElementById("pass1").textContent="pass";
 document.getElementById("pass2").textContent="jason";

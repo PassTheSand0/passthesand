@@ -1,6 +1,7 @@
-Hi it me PassTheSand
-i dont know why i wanna send my code to the public (i am still learning coding) but i guess it cool
-
-
 Currently Learning:
 # PYTHON
+
+
+LAST UPDATED:
+# 3/20/2024 
+# 3:20 PM

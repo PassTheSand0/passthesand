@@ -9,7 +9,7 @@ window.iconphoto(False, blankicon)
 
 # Command
 def Click():
-    messagebox.askokcancel(title="Hi", message="do you want to cancel yourself")
+    messagebox.askokcancel(title="Hi", message="aa")
 
 # Widget
 button = Button(window, text="MessageBox")
